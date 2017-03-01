@@ -1,0 +1,20 @@
+﻿Build started 2015/5/6 23:36:52.
+     1>Project "C:\Users\Yangg\Desktop\321\Lecture01\PolygonWithAllTransforms-Distribution\Polygon.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Visual Studio 2012\VC\bin\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp Matrix.cpp OpenGLUtil.cpp Point.cpp Vector.cpp
+         Application.cpp
+     1>Application.cpp(6): fatal error C1083: Cannot open include file: 'point.h': No such file or directory
+         Matrix.cpp
+     1>Matrix.cpp(8): fatal error C1083: Cannot open include file: 'matrix.h': No such file or directory
+         OpenGLUtil.cpp
+     1>c:\users\yangg\desktop\321\lecture01\polygonwithalltransforms-distribution\OpenGLUtil.h(4): fatal error C1083: Cannot open include file: 'point.h': No such file or directory
+         Point.cpp
+     1>Point.cpp(3): fatal error C1083: Cannot open include file: 'point.h': No such file or directory
+         Vector.cpp
+     1>Vector.cpp(5): fatal error C1083: Cannot open include file: 'vector.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Yangg\Desktop\321\Lecture01\PolygonWithAllTransforms-Distribution\Polygon.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.62
